@@ -1,0 +1,148 @@
+body
+{
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+#new-post
+{
+    background: #fff;
+    /*border: 1px dashed green;*/
+    border-radius: 4px;
+    display: none;
+    height: 100%;
+    margin: 0 auto;
+    position: absolute;
+    width: 100%;
+    z-index: 900;
+}
+#new-post fieldset
+{
+    border:0;
+}
+
+#new-post-title, #new-post-text
+{
+    width: 50%;
+}
+
+#addPost
+{
+    background: #9EB32F;
+    border-radius: 3px;
+    cursor: pointer;
+    margin: 1em;
+    padding: 0.25em;
+}
+
+#menu-bar
+{
+    background: #564842;
+    box-shadow: 0 3px 5px rgba(0,0,0,0.3);
+    color: black;
+    height: 2em;
+    left: 0px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 1000;
+}    
+.addItem
+{
+    background: #FFBA00;
+    border-radius: 3px;
+    box-shadow: 0 3px 5px rgba(0,0,0,0.3);
+    cursor: pointer;
+    margin: 1em 0 1em 1em;
+    padding: 3px;
+    position: relative;
+    top: 1em;
+}
+
+#post-list
+{
+    /*border: 1px solid #CCC;*/
+    margin: 2em 0 0 0;
+    padding: 0;
+    width: 100%;
+}
+#post-list .post
+{
+    width: 210px;
+    margin: 3px;
+    float: left;
+    border: 1px solid #CCC;
+    padding: 0.5em;
+    /*media querys urgente*/
+}
+.head
+{
+    position: relative;
+    margin: 0;
+    left: 0em;
+    padding: 0;
+    top: 0em;
+    width: 100%;
+}
+h2
+{    
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.postDetail p
+{
+    display: block;
+    margin-top: 0;
+    clear: both;
+    color: #333;
+}
+.postDetail figure
+{
+    /*border: 0px dashed #ccc;*/
+    padding: 0em;
+    margin: 0;
+    width: 110%;
+    left: -5%;
+    position: relative;
+}
+.postDetail figure img
+{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    width: 100%;
+}            
+.postDetail figure video
+{
+    width: 100%;
+}
+
+.footer
+{
+    border: 1px dashed #ccc;
+    width: 100%;
+}
+
+.postDate, .profile
+{
+    margin: 0.5em 0 0 0;
+}
+
+.postDate
+{
+    float: left;
+}
+
+.profile
+{
+    float: right;
+}
+
+.profile img
+{
+    border-radius: 3px;
+    width:1.5em;
+}
+
